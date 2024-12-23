@@ -10,21 +10,21 @@ import org.springframework.data.jpa.repository.config.EnableJpaAuditing;
 @SpringBootApplication
 @EnableJpaAuditing(auditorAwareRef = "auditAwareImpl")
 @OpenAPIDefinition(
-		info = @Info(
-				title = "Loans microservice REST API Documentation",
-				description = "Bank Loans microservice REST API Documentation",
-				version = "v1",
-				contact = @Contact(
-						name = "Sainikhil Reddy",
-						email = "sainikhil3009@gmail.com"
+        info = @Info(
+                title = "Loans microservice REST API Documentation",
+                description = "Bank Loans microservice REST API Documentation",
+                version = "v1",
+                contact = @Contact(
+                        name = "Sainikhil Reddy",
+                        email = "sainikhil3009@gmail.com"
 
-				)
-		)
+                )
+        )
 )
 public class LoansApplication {
 
-	public static void main(String[] args) {
-		SpringApplication.run(LoansApplication.class, args);
-	}
+    public static void main(String[] args) {
+        SpringApplication.run(LoansApplication.class, args);
+    }
 
 }
